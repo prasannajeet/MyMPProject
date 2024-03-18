@@ -17,6 +17,7 @@ kotlin {
     
     jvm("desktop")
     linuxX64("native")
+    linuxArm64("native")
     
     listOf(
         iosX64(),
